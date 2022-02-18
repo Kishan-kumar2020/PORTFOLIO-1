@@ -1,0 +1,118 @@
+body {
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWI5uVvU8qn77C4ZwYj4hm3kWxtrIaz00-Vg&usqp=CAU') no-repeat;
+    background-size: cover;
+    align-content: center;
+    text-align: justify;
+}
+  
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+h1 {
+    color: white;
+    font-style: italic;
+    margin-left: 10%;
+    margin-top: 5%;
+    text-decoration: underline;
+}
+
+#div11 {
+    color: white;
+    margin-top: 1%;
+    margin-left: 10%;
+    display: inline-block;
+}
+
+hr {
+    text-align: center;
+    width: 50%;
+}
+
+#div12 {
+    display: inline-block;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+    margin-left: 70%;
+}
+
+ul li {
+    box-sizing: border-box;
+    width: 15em;
+    height: 3em;
+    font-size: 20px;
+    border-radius: 0.5em;
+    margin: 0.5em;
+    box-shadow: 0 0 1em rgba(0,0,0,0.2);
+    color: white;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    line-height: 3em;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+ul li:nth-child(odd) {
+    background: linear-gradient(-45deg, #23a6d5, #23d5ab, #ee7752, #e73c7e);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+    text-align: left;
+    padding-left: 10%;
+    transform: perspective(500px) rotateY(45deg);
+}
+
+ul li:nth-child(even) {
+    background: linear-gradient(-45deg, orange, tomato, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+    text-align: right;
+    padding-right: 10%;
+    transform: perspective(500px) rotateY(-45deg);
+}
+
+ul li:nth-child(odd):hover {
+    transform: perspective(200px) rotateY(45deg);
+    padding-left: 5%;
+}
+
+ul li:nth-child(even):hover {
+    transform: perspective(200px) rotateY(-45deg);
+    padding-right: 5%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+#div2 {
+    margin-left: 48%;
+}
+
+#div2 button {
+    background-color: #23d5ab;
+    border: solid black 2px;
+    box-shadow: 0 0 2vw rgba(0,0,0,0.2);
+    border-radius: 10px;
+}
+
+#div2 button:hover {
+    border-radius: 5px;
+    background: #3c94e7de;
+    font-style: italic;
+}
+
+span {
+    font-size: 1.2vw;
+}

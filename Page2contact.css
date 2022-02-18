@@ -1,0 +1,97 @@
+body {
+    background : url('https://free4kwallpapers.com/uploads/originals/2015/08/25/website-background.jpg') no-repeat 50% 50%;
+    background-size: cover;
+}
+
+#div1 {
+    color: white;
+    font-size: 1.5vw;
+    margin-left: 15%;
+    margin-top: 8%;
+}
+
+h3 {
+    font-style: italic;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+    margin-left: 70%;
+}
+
+ul li {
+    box-sizing: border-box;
+    width: 15em;
+    height: 3em;
+    font-size: 20px;
+    border-radius: 0.5em;
+    margin: 0.5em;
+    box-shadow: 0 0 1em rgba(0,0,0,0.2);
+    color: white;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    line-height: 3em;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+ul li:nth-child(odd) {
+    background: linear-gradient(to right, orange, tomato);
+    text-align: left;
+    padding-left: 10%;
+    transform: perspective(500px) rotateY(45deg);
+}
+
+ul li:nth-child(even) {
+    background: linear-gradient(to left, orange, tomato);
+    text-align: right;
+    padding-right: 10%;
+    transform: perspective(500px) rotateY(-45deg);
+}
+
+ul li:nth-child(odd):hover {
+    transform: perspective(200px) rotateY(45deg);
+    padding-left: 5%;
+}
+
+ul li:nth-child(even):hover {
+    transform: perspective(200px) rotateY(-45deg);
+    padding-right: 5%;
+}
+
+#div2 {
+    color: white;
+    font-size: 1.2vw;
+    margin-left: 40%;
+    font-style: italic;
+}
+
+#div3 {
+    color: white;
+    font-style: italic;
+    font-size: 1.2vw;
+    margin-left: 40%;
+    margin-top: 1%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+#div4 {
+    margin-left: 32%;
+    margin-top: 2%;
+}
+
+button {
+    border-radius: 50px;
+    margin-left: 5%;
+    background-color: azure;
+}
+
+#div4 button:hover {
+    font-size: 40px;
+    border-radius: 40px;
+}
